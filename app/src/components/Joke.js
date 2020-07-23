@@ -10,7 +10,6 @@ const Joke = (props) => {
 
   return (
     <div className='jokeContainer'>
-      {props.isLoading && <div>loading joke...</div>}
       {props.joke && (
         <div>
           <h4>{props.joke.setup}</h4>
