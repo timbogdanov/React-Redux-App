@@ -12,7 +12,7 @@ const Joke = (props) => {
     <div className='jokeContainer'>
       {props.joke && (
         <div>
-          <h4>{props.joke.setup}</h4>
+          <h3>{props.joke.setup}</h3>
           <p>{props.joke.punchline}</p>
         </div>
       )}
